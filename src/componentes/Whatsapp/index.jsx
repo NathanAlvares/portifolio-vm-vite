@@ -1,3 +1,4 @@
+import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const WhatsappEstilizado = styled.div`
@@ -46,24 +47,26 @@ const WhatsappEstilizado = styled.div`
 
 export default function Whatsapp({ texto }) {
   return (
-    <WhatsappEstilizado>
-      <p>{texto}</p>
-      <button>
-        <svg
-          width="56"
-          height="44"
-          viewBox="0 0 56 44"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.02085 2.05678L53.2484 21.6506L3.0208 41.2445L15.3397 22.1934L15.6909 21.6504L15.3397 21.1074L3.02085 2.05678Z"
-            stroke="#275831"
-            strokeWidth="2"
-          />
-          <path d="M54 21.6504L15 21.6504" stroke="#275831" strokeWidth="2" />
-        </svg>
-      </button>
-    </WhatsappEstilizado>
+    <a href="https://wa.me/554199783789" target="_blank">
+      <WhatsappEstilizado>
+        <p>{texto}</p>
+        <button>
+          <svg
+            width="56"
+            height="44"
+            viewBox="0 0 56 44"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3.02085 2.05678L53.2484 21.6506L3.0208 41.2445L15.3397 22.1934L15.6909 21.6504L15.3397 21.1074L3.02085 2.05678Z"
+              stroke="#275831"
+              strokeWidth="2"
+            />
+            <path d="M54 21.6504L15 21.6504" stroke="#275831" strokeWidth="2" />
+          </svg>
+        </button>
+      </WhatsappEstilizado>
+    </a>
   );
 }

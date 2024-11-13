@@ -32,7 +32,8 @@ const RodapeEstilizado = styled.footer`
     background-color: transparent;
     color: #ffffff;
     font-size: 36px;
-    margin-left: auto;
+    margin-left: 570px;
+    margin-right: auto;
     margin-top: 32px;
     cursor: pointer;
   }
