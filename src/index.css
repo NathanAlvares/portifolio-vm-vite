@@ -1,0 +1,14 @@
+body {
+  background-color: #E7E7E7;
+  font-family: 'Gentium Plus', serif;
+  color: #275831;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
