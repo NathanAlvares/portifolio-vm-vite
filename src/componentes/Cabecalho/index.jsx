@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Turn as Hamburger } from "hamburger-react";
 import styled from "styled-components";
 import { useState } from "react";
